@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    cout << "Enter Purchased Price: ";
+    double price;
+    cin >> price;
+    cout << "Enter Sale Price: ";
+    double sales;
+    cin >> sales;
+    double loss = price - sales;
+    double profit = sales - price;
+    if (price > sales) {
+        cout << "You loss " << loss << endl;
+    }
+    else if (price < sales) {
+        cout << "You profit " << profit << endl;
+    }
+    else {
+        cout << "You did not profit nor loss anything" << endl;
+    }
+
+}
