@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Enter number: ";
+    int number;
+    cin >> number;
+    if (number > 0) {
+        cout << "Your number is a positive value" << endl;
+    }
+    else if (number == 0) {
+        cout << "Your number is a zero value" << endl;
+    }
+    else {
+        cout << "Your number is negative" << endl;
+    }
+}
