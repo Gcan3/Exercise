@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   
+    cout << "Hello :) Please input a number of sides (minimum 3 sides): ";
+    int sides;
+    cin >> sides;
+    if (sides == 3) {
+        cout << "That's a triangle" << endl;
+    }
+    else if (sides == 4) {
+        cout << "That's a quadrilateral" << endl;
+    }
+    else if (sides == 5) {
+        cout << "That's a pentagon" << endl;
+    }
+    else if (sides == 6) {
+        cout << "That's a hexagon" << endl;
+    }
+    else if (sides == 7) {
+        cout << "That's a heptagon" << endl;
+    }
+    else if (sides == 8) {
+        cout << "That's an octagon" << endl;
+    }
+    else if (sides == 9) {
+        cout << "That's a nonagon" << endl;
+    }
+    else if (sides == 10) {
+        cout << "That's a decagon" << endl;
+    }
+    else if (sides <= 3) {
+        cout << "I clearly just said 'minimum 3 sides'" << endl;
+    }
+    else {
+        cout << "Sorry, I only know up to 10 sides :(" << endl;
+    }
+
+
+}
