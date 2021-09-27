@@ -3,11 +3,25 @@ using namespace std;
 
 int main()
 {
+    //Initial try:
+    /*cout << "Enter number: ";
+    int number;
+    cin >> number;
+    int number2 = number / 2;
+    if (number2 == number2 / 2) {
+        cout << "Your number is even" << endl;
+    }
+    else {
+        cout << "Your number is odd" << endl;
+    }*/
+   
+    
+    //Finalized code:
     cout << "Enter number: ";
     int number;
     cin >> number;
-    int number2 = number % 2;
-    if (number2 == 0) {
+    int remainder = number % 2;
+    if (remainder == 0) {
         cout << "Your number is even" << endl;
     }
     else {
